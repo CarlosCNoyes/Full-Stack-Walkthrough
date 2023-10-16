@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to our body element */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding-top: 50px; /* Adjusted padding for fixed nav */
+}
+
+/* Style the header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: #333;
+    color: #fff;
+}
